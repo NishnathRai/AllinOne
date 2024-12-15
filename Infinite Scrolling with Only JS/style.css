@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#main-box{
+    height: 90vh;
+    width: 450px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    flex-direction: column;
+    gap:10px;
+}
+.to-do-card{
+    width: 100%;
+    min-height: 70px;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    margin: 15px 0 15px 0;
+    border: solid black 1px;
+}
+.to-do-card h3{
+    width: 90%;
+    display: inline-block;
+}
+.to-do-card input{
+    width: 10%;
+    display: inline-block;
+}
